@@ -1,0 +1,22 @@
+---
+- name: dnes je pátek
+  uid: 8dc556fc-df2a-4101-be52-38e0295df07a
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: zeptám se jestli už je pátek
+  uid: ce299dbe-2915-4e0a-bb57-d917487c0b24
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: mělo by být řečeno "p1"
+  uid: dbd97084-8d5d-466a-b869-905ed1ec59a6
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: dnes je neděle
+  uid: 8e3d0d9f-92a1-4042-be55-37fc857d6679
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: mělo by být řečeno „Ne“
+  uid: d605bb46-6f14-4059-820c-6b23dc4dcaa8
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e

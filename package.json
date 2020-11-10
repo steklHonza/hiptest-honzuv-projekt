@@ -1,0 +1,18 @@
+{
+  "name": "honzuv_projekt",
+  "version": "1.0.0",
+  "description": "Friday project",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "Jan Stekl",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.0.0-rc.0",
+    "cucumber-junit": "^1.7.1",
+    "cucumber-junit-formatter": "^0.2.2"
+  },
+  "cucumberjs-junit": "https://github.com/steklHonza/honzuv_projekt.git"
+}
