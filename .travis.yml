@@ -15,4 +15,4 @@ script:
   - node_modules/.bin/cucumber-js --format=json | node_modules/cucumber-junit/bin/cucumber-junit --features-as-suites > test-result.json
 
 after_script:
-  - hiptest-publisher -c hiptest-publisher.conf --push-format=cucumber-json --test-run-id=479104
+  - hiptest-publisher -c hiptest-publisher.conf --push=test-result.json --test-run-id=479104
