@@ -36,4 +36,40 @@
             </skipped>
         </testcase>
     </testsuite>
+    <testsuite name="uz-je-patek?;dnes-je-patek-(uid:4d0aa221-4817-42a5-8f0d-e634e554f108)" tests="3" failures="0" skipped="3">
+        <properties>
+            <property name="URI" value="features/uz_je_patek.feature">
+            </property>
+        </properties>
+        <testcase name="Given dnes je &quot;patek&quot;" classname="uz-je-patek?;dnes-je-patek-(uid:4d0aa221-4817-42a5-8f0d-e634e554f108)">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When zeptam se zda uz je &quot;patek&quot;" classname="uz-je-patek?;dnes-je-patek-(uid:4d0aa221-4817-42a5-8f0d-e634e554f108)">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then je receno &quot;huraaa&quot;" classname="uz-je-patek?;dnes-je-patek-(uid:4d0aa221-4817-42a5-8f0d-e634e554f108)">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="uz-je-patek?;dnes-je-nedele-(uid:ade3abf2-4f74-4726-8b05-1d6572129bf7)" tests="3" failures="0" skipped="3">
+        <properties>
+            <property name="URI" value="features/uz_je_patek.feature">
+            </property>
+        </properties>
+        <testcase name="Given dnes je &quot;nedele&quot;" classname="uz-je-patek?;dnes-je-nedele-(uid:ade3abf2-4f74-4726-8b05-1d6572129bf7)">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When zeptam se zda uz je &quot;patek&quot;" classname="uz-je-patek?;dnes-je-nedele-(uid:ade3abf2-4f74-4726-8b05-1d6572129bf7)">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then je receno &quot;ne&quot;" classname="uz-je-patek?;dnes-je-nedele-(uid:ade3abf2-4f74-4726-8b05-1d6572129bf7)">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
 </testsuites>

@@ -1,35 +1,29 @@
-module.exports = function () {
-    this.Before(function (scenario) {
-        this.actionwords = Object.create(require('./actionwords.js').Actionwords);
-    });
+const assert = require('assert');
+const { Given, When, Then } = require('@cucumber/cucumber');
 
-    this.After(function (scenario) {
-        this.actionwords = null;
-    });
+//module.exports = function () {
+//    this.Before(function (scenario) {
+//        this.actionwords = Object.create(require('./actionwords.js').Actionwords);
+//    });
 
-
-    this.Given(/^dnes je pátek$/, function (callback) {
-        this.actionwords.dnesJePatek();
-        callback();
-    });
-
-    this.When(/^zeptám se jestli už je pátek$/, function (callback) {
-        this.actionwords.zeptamSeJestliUzJePatek();
-        callback();
-    });
-
-    this.Then(/^mělo by být řečeno "(.*)"$/, function (p1, callback) {
-        this.actionwords.meloByBytRecenoP1(p1);
-        callback();
-    });
-
-    this.Given(/^dnes je neděle$/, function (callback) {
-        this.actionwords.dnesJeNedele();
-        callback();
-    });
-
-    this.Then(/^mělo by být řečeno „Ne“$/, function (callback) {
-        this.actionwords.meloByBytRecenoNe();
-        callback();
-    });
+function jeUzPatek(today) {
+  if (today === "patek") {
+    return "huraaa"; 
+  } 
+  else {
+    return "ne"
+  }
 }
+
+    Given('dnes je {string}', function (givenDay) {
+      this.today = givenDay;
+    });
+    
+    When('zeptam se zda uz je {string}', function (today) {
+      this.actualAnswer = jeUzPatek(this.today);
+    });
+    
+    Then('je receno {string}', function (expectedAnswer) {
+      assert.equal(this.actualAnswer, expectedAnswer);
+    });
+//}
