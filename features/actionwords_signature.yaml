@@ -1,0 +1,15 @@
+---
+- name: je "p1"
+  uid: 315fdb1c-0bb4-4ac0-8afb-8670fac697a2
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: zeptam se zda je patek
+  uid: fae6b992-0ad8-4d12-b71e-456781efbec4
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: je receno "p1"
+  uid: eac59367-a410-452a-9744-aebc22b3e18a
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
